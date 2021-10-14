@@ -5,7 +5,7 @@
         <nuxt-link class="btn block" to="/">Home</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/blog">Scripture Study</nuxt-link>
+        <nuxt-link class="btn block" to="/blog">Study</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
         <nuxt-link class="btn block" to="/projects">Projects</nuxt-link>
@@ -22,6 +22,11 @@ export default {
 
 <style lang="postcss" scoped>
 .scrim-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   &::before {
     content: '';
     z-index: -1;
