@@ -3,8 +3,8 @@
     <section class="hero">
       <main class="self-center flex flex-col flex-1 items-center justify-center" style="height: 100%">
         <section class="self-center flex flex-col flex-1 items-center justify-center">
-          <img src="icon.png" width="120" alt="" />
-          <h1 class="title text-center" style="color: #fff !important">UPC GIFT - PASAY</h1>
+          <!-- <img src="icon.png" width="120" alt="" /> -->
+          <h1 class="title text-center" style="color: #fff !important">VISION & MISSION</h1>
           <h6 class="text-center max-w-5xl mx-auto" style="color: #fff !important">
             "A grace abounding church that everyone would want to join and be a part of. Seeking and saving God's lost
             children in Pasay City; Distributing His gifts to everyone, gloryfing the name of the Lord Jesus Christ in

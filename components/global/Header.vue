@@ -1,5 +1,5 @@
 <template>
-  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-3 px-3" aria-label="Main Menu">
+  <!-- <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-3 px-3" aria-label="Main Menu">
     <ul class="flex">
       <li class="flex-1">
         <nuxt-link class="btn block" to="/">Home</nuxt-link>
@@ -11,6 +11,19 @@
         <nuxt-link class="btn block" to="/projects">Projects</nuxt-link>
       </li>
     </ul>
+  </nav> -->
+  <nav class="main-nav" aria-label="Main Menu">
+    <div class="nav">
+      <a href="/" class="logo-holder">
+        <img src="icon.png" width="50" alt="gift-logo" />
+        <span class="logo-name"><b>UPC GIFT - PASAY</b></span>
+      </a>
+      <div>
+        <nuxt-link class="" to="/">Home</nuxt-link>
+        <nuxt-link class="ml-2" to="/blog">Study</nuxt-link>
+        <nuxt-link class="ml-2" to="/projects">Projects</nuxt-link>
+      </div>
+    </div>
   </nav>
 </template>
 
@@ -42,8 +55,61 @@ export default {
     background: linear-gradient(to bottom, #111827, cubic-bezier(0.15, 0, 0.45, 1), transparent);
   }
 }
+
+.main-nav {
+  background-color: var(--bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  /* &::before {
+    content: '';
+    z-index: -1;
+    background-color: var(--bg);
+    @apply absolute bottom-0 inset-x-0 h-12 mb-4 transition-colors duration-200 ease-in-out;
+  }
+  &::after {
+    content: '';
+    z-index: -1;
+    opacity: 1;
+    animation: fadeIn1 500ms ease-in-out;
+    @apply pointer-events-none absolute bottom-0 inset-x-0 h-16 -mb-12;
+    background: linear-gradient(to bottom, #111827, cubic-bezier(0.15, 0, 0.45, 1), transparent);
+  } */
+}
+
+.main-nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 64rem;
+  padding: 8px 0;
+}
+
+.main-nav .nav {
+  @media screen and (max-width: 426px) {
+    padding: 8px 1rem;
+  }
+}
+
+.main-nav .nav .logo-holder {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav .nav .logo-name {
+  margin-left: 10px;
+  @media screen and (max-width: 426px) {
+    display: none;
+  }
+}
+
 .nuxt-link-exact-active {
-  @apply text-gray-200 border-gray-400 bg-gray-800 bg-opacity-25 cursor-default;
+  @apply text-gray-200 bg-opacity-25 cursor-default;
 }
 
 .light {
@@ -54,7 +120,7 @@ export default {
     }
   }
   & .nuxt-link-exact-active {
-    @apply text-primary-700 border-gray-600 bg-gray-100;
+    @apply text-primary-700;
   }
 }
 
