@@ -141,8 +141,8 @@ export default {
   },
   pwa: {
     icon: {
-      // source: 'static/icon.png',
-      filename: 'icon.png',
+      source: 'static/icon.jpg',
+      filename: 'icon.jpg',
       sizes: [64, 120, 144, 152, 192, 384, 512]
     },
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
