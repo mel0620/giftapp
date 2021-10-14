@@ -140,21 +140,19 @@ export default {
     }
   },
   pwa: {
-    meta: {
-      title: 'UPC GIFT - PASAY',
-      author: 'Rommel Cuneta'
-    },
     icon: {
-      source: 'static/icon.png',
+      // source: 'static/icon.png',
       filename: 'icon.png',
       sizes: [64, 120, 144, 152, 192, 384, 512]
     },
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
     meta: {
       name: SITE_INFO.sitename || process.env.npm_package_name || '',
+      short_name: 'UPC-GIFT',
       lang: process.env.lang,
       ogHost: process.env.URL,
-      ogImage: '/home-bg.jpg'
+      ogImage: '/home-bg.jpg',
+      author: 'Rommel Cuneta'
     }
   }
 }
