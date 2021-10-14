@@ -27,11 +27,16 @@ export default {
   background-image: url('static/posts.jpg');
   height: 40vh;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: top;
   /* background-attachment: fixed; */
   margin-top: -1rem;
   margin-left: -2rem;
   margin-right: -2rem;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 426px) {
+    height: 25vh;
+  }
 }
 </style>
