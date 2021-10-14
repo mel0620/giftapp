@@ -28,8 +28,8 @@
 
       <section class="mt-8">
         <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Latest post</h3>
-        <posts post-type="blog" :amount="1" />
-        <posts post-type="projects" :amount="1" />
+        <posts post-type="blog" :amount="2" />
+        <!-- <posts post-type="projects" :amount="1" /> -->
       </section>
     </main>
   </div>
