@@ -1,5 +1,6 @@
 <template>
   <main>
+    <div class="proj"></div>
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
       <h1 class="title">Projects</h1>
       <posts post-type="projects" :amount="10" />
@@ -20,3 +21,17 @@ export default {
   },
 }
 </script>
+
+<style>
+.proj {
+  background-image: url('static/proj.jpg');
+  height: 40vh;
+  background-size: contain;
+  background-position: top;
+  background-attachment: fixed;
+  margin-top: -1rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-bottom: 2rem;
+}
+</style>

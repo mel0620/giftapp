@@ -16,6 +16,7 @@
     <div class="nav">
       <a href="/" class="logo-holder">
         <img src="logo-circle.svg" width="50" alt="gift-logo" />
+        <!-- <img src="gift-logo.svg" width="50" alt="gift-logo" /> -->
         <span class="logo-name"><b>UPC GIFT - PASAY</b></span>
       </a>
       <div>
