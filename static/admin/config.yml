@@ -40,7 +40,7 @@ collections:
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
   - name: 'blog'
-    label: 'Blog'
+    label: 'Bible Study'
     folder: 'content/blog'
     create: true
     format: 'frontmatter'
@@ -65,8 +65,8 @@ collections:
           label: 'Project Category',
           name: 'category',
           widget: 'select',
-          default: 'animals',
-          options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
+          default: 'music',
+          options: [{ label: 'Music Ministry', value: 'music' }, { label: 'Evangelism', value: 'evangelism' }],
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
