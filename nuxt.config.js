@@ -147,7 +147,8 @@ export default {
     },
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
     meta: {
-      name: SITE_INFO.sitename || process.env.npm_package_name || '',
+      // name: SITE_INFO.sitename || process.env.npm_package_name || '',
+      name: SITE_INFO.sitename,
       short_name: 'UPC-GIFT',
       lang: process.env.lang,
       ogHost: process.env.URL,
