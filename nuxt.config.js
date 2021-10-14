@@ -79,7 +79,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxt/image'],
   /*
    ** Build configuration
    */
@@ -144,8 +144,8 @@ export default {
   },
   pwa: {
     icon: {
-      source: 'static/icon.jpg',
-      filename: 'icon.jpg',
+      source: 'static/logo.png',
+      filename: 'logo.png',
       sizes: [64, 120, 144, 152, 192, 384, 512]
     },
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },

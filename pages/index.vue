@@ -5,11 +5,11 @@
         <section class="self-center flex flex-col flex-1 items-center justify-center">
           <!-- <img src="icon.png" width="120" alt="" /> -->
           <h1 class="title text-center" style="color: #fff !important">VISION & MISSION</h1>
-          <p class="text-center max-w-5xl mx-auto" style="color: #fff !important">
+          <h4 class="text-center max-w-5xl mx-auto" style="color: #fff !important">
             "A grace abounding church everyone would want to join and be apart of. Seeking and saving God's lost
             children in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in
             the process."
-          </p>
+          </h4>
           <a class="mt-3" style="color: #fff" href="https://www.facebook.com/GIFTPASAY" target="_blank">
             <span class="material-icons">facebook</span>
           </a>
