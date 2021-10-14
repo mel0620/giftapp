@@ -20,9 +20,9 @@
         <span class="logo-name"><b>UPC GIFT - PASAY</b></span>
       </a>
       <div>
-        <nuxt-link class="" to="/">Home</nuxt-link>
-        <nuxt-link class="ml-2" to="/blog">Study</nuxt-link>
-        <nuxt-link class="ml-2" to="/projects">Projects</nuxt-link>
+        <nuxt-link tag="a" class="" to="/">Home</nuxt-link>
+        <nuxt-link tag="a" class="ml-2" to="/blog">Study</nuxt-link>
+        <nuxt-link tag="a" class="ml-2" to="/projects">Projects</nuxt-link>
       </div>
     </div>
   </nav>
