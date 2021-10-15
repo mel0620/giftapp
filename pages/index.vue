@@ -6,7 +6,7 @@
           <!-- <img src="icon.png" width="120" alt="" /> -->
           <h1 class="title home-title text-center" style="color: #fff !important">WELCOME TO GIFT CHURCH!</h1>
           <h4 class="text-center max-w-5xl mx-auto" style="color: #fff !important">
-            "One Lord, One faith, One Baptism" - Ephesians 6:10
+            "One Lord, One faith, One Baptism" - Ephesians 4:5
           </h4>
           <!-- <a class="mt-3" style="color: #fff" href="https://www.facebook.com/GIFTPASAY" target="_blank">
             <span style="font-size: 2rem" class="material-icons">facebook</span>
