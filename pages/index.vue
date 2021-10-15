@@ -15,26 +15,27 @@
         </section>
       </main>
     </section>
-    <main>
-      <section class="mt-5">
-        <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">VISION & MISSION</h3>
-        <p class="max-w-5xl mx-auto">
-          A grace abounding church everyone would want to join and be apart of. Seeking and saving God's lost children
+    <main style="padding-bottom: 0">
+      <section class="mt-5 text-center pt-10 pb-20 vision-mission">
+        <h2 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">VISION & MISSION</h2>
+        <h5 class="max-w-5xl mx-auto">
+          "A grace abounding church everyone would want to join and be apart of. Seeking and saving God's lost children
           in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in the
-          process.
-        </p>
+          process."
+        </h5>
       </section>
+
+      <!-- <div class="divider"></div> -->
 
       <section class="mt-8">
         <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">LATEST POSTS</h3>
         <posts post-type="blog" :amount="2" />
-        <!-- <posts post-type="projects" :amount="1" /> -->
       </section>
     </main>
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 .home {
   width: 100%;
 }
@@ -49,5 +50,12 @@
 .home-title {
   font-size: 3.5rem;
   line-height: 3.5rem;
+}
+
+.divider {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-primary);
 }
 </style>
