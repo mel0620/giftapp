@@ -4,7 +4,7 @@
       <main class="self-center flex flex-col flex-1 items-center justify-center" style="height: 100%">
         <section class="self-center flex flex-col flex-1 items-center justify-center">
           <!-- <img src="icon.png" width="120" alt="" /> -->
-          <h1 class="title text-center" style="color: #fff !important">WELCOME TO GIFT CHURCH!</h1>
+          <h1 class="title home-title text-center" style="color: #fff !important">WELCOME TO GIFT CHURCH!</h1>
           <h4 class="text-center max-w-5xl mx-auto" style="color: #fff !important">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda libero id, quidem blanditiis dolore
             omnis.
@@ -44,5 +44,10 @@
   background-size: cover;
   background-position: center;
   height: 95vh;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
 }
 </style>
