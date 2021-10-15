@@ -50,7 +50,7 @@ export default {
       },
       {
         rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
-      }
+      },
     ], // ? Imports the font 'Inter', can be optimized by the netlify plugin 'Subfont' by uncommenting it in `netlify.toml`
     noscript: [
       {
