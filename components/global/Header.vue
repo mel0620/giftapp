@@ -15,9 +15,7 @@
   <nav class="main-nav" aria-label="Main Menu">
     <div class="nav">
       <a href="/" class="logo-holder">
-        <!-- <img src="logo-circle.svg" width="50" alt="gift-logo" /> -->
         <nuxt-img src="logo-circle.svg" width="50" alt="gift-logo" />
-        <!-- <img src="gift-logo.svg" width="50" alt="gift-logo" /> -->
         <span class="logo-name"><b>UPC GIFT - PASAY</b></span>
       </a>
       <div>
@@ -67,20 +65,6 @@ export default {
   z-index: 9999;
   display: flex;
   justify-content: center;
-  /* &::before {
-    content: '';
-    z-index: -1;
-    background-color: var(--bg);
-    @apply absolute bottom-0 inset-x-0 h-12 mb-4 transition-colors duration-200 ease-in-out;
-  }
-  &::after {
-    content: '';
-    z-index: -1;
-    opacity: 1;
-    animation: fadeIn1 500ms ease-in-out;
-    @apply pointer-events-none absolute bottom-0 inset-x-0 h-16 -mb-12;
-    background: linear-gradient(to bottom, #111827, cubic-bezier(0.15, 0, 0.45, 1), transparent);
-  } */
 }
 
 .main-nav .nav {
