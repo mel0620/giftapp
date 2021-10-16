@@ -77,8 +77,8 @@ export default {
 }
 
 .main-nav .nav {
-  @media screen and (max-width: 426px) {
-    padding: 8px 1rem;
+  @media screen and (max-width: 1025px) {
+    padding: 8px 2rem;
   }
 }
 
