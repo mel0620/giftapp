@@ -1,23 +1,29 @@
 <template>
-  <div class="wrapper">
-    <!-- <p>{{ fileContent }}</p> -->
-  </div>
+  <main>
+    <div class="wrapper" v-if="post">
+      <h1>TEST</h1>
+      <p style="color: white">{{ post.createdAt }}</p>
+      <p style="color: white">{{ post.title }}</p>
+      <nuxt-content :document="post" />
+    </div>
+  </main>
 </template>
 
 <script>
-// import mdFile from './file.md'
 export default {
-  data() {
-    return {
-      fileContent: '',
+  async asyncData({ $content, params, error }) {
+    let post
+    try {
+      post = await $content('activities', params.activities).fetch()
+    } catch (e) {
+      error({ message: 'Post not found' })
     }
-  },
-  mounted() {
-    this.getMDFile()
+    return { post }
   },
   methods: {
-    getMDFile() {
-      //   this.fileContent = mdFile
+    formatDate(dateString) {
+      const date = new Date(dateString)
+      return date.toLocaleDateString(process.env.lang) || ''
     },
   },
 }

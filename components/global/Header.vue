@@ -73,16 +73,12 @@ export default {
   align-items: center;
   width: 100%;
   max-width: 64rem;
+  padding: 8px 0;
 }
 
 .main-nav .nav {
-  @media screen and (max-width: 1921px) {
-    padding: 8px 0;
-  }
-}
-.main-nav .nav {
   @media screen and (max-width: 1025px) {
-    padding: 8px 2rem;
+    padding: 8px 2rem !important;
   }
 }
 
