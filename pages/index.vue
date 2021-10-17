@@ -18,9 +18,9 @@
       <section class="mt-5 text-center pt-10 pb-20 vision-mission">
         <h2 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">VISION & MISSION</h2>
         <h5 class="max-w-5xl mx-auto">
-          "A grace abounding church everyone would want to join and be apart of. Seeking and saving God's lost children
-          in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in the
-          process."
+          "A grace abounding church that everyone would want to join and be apart of. Seeking and saving God's lost
+          children in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in
+          the process."
         </h5>
       </section>
 
