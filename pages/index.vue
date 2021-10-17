@@ -30,10 +30,34 @@
         <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">SCRIPTURE STUDY</h3>
         <posts post-type="blog" :amount="2" />
       </section>
+
+      <section class="youtube max-w-5xl mx-auto mt-10">
+        <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto mb-5">YOUTUBE VIDEOS</h3>
+        <div class="youtube-videos">
+          <iframe
+            class="youtube-video"
+            height="315"
+            src="https://www.youtube.com/embed/0Fz140IzAOQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="youtube-video"
+            height="315"
+            src="https://www.youtube.com/embed/R2VIUFxIS0M"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
     <section class="contact-section">
       <h3>REACH US</h3>
-      <span>0912.345.6789</span>
+      <span>0965-463-6343</span>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15447.651667647862!2d120.9964069!3d14.5469723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d283632efa6ae9a!2sUnited%20Pentecostal%20Church%20Pasay%20City%20-%20Libertad!5e0!3m2!1sen!2sph!4v1634306107610!5m2!1sen!2sph"
         style="border: 0"
@@ -73,6 +97,23 @@
 .contact-section h3,
 .contact-section span {
   color: #fff;
+}
+
+.youtube-videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 426px) {
+  .youtube-videos {
+    grid-template-columns: 1fr;
+  }
+}
+
+.youtube-video {
+  width: 560px;
+  max-width: 100%;
 }
 
 .google-map {
