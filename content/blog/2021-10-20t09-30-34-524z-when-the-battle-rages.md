@@ -1,7 +1,7 @@
 ---
 createdAt: 2021-10-20T09:30:34.524Z
 title: WHEN THE BATTLE RAGES
-description: Mid-Week Bible Study
+description: "Midweek Bible Study: Put on the Whole Armor of God Series No. 2"
 ---
 John [](<>)10:10 KJV
 
